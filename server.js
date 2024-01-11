@@ -30,7 +30,7 @@ const getExifData = async () => {
 
   return responseArray;
 };
-app.post("/exif", async (req, res) => {
+app.get("/exif", async (req, res) => {
   try {
     const responses = await getExifData();
     return res.json(responses);
