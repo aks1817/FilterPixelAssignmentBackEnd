@@ -1,0 +1,28 @@
+{
+  "name": "filterpixelassignmentbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aks1817/FilterPixelAssignmentBackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aks1817/FilterPixelAssignmentBackEnd/issues"
+  },
+  "homepage": "https://github.com/aks1817/FilterPixelAssignmentBackEnd#readme",
+  "dependencies": {
+    "config": "^3.3.10",
+    "exiftool-vendored": "^24.3.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "request": "^2.88.2"
+  }
+}
