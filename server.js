@@ -13,7 +13,7 @@ const getExifData = async () => {
   for (const image of imageData) {
     const tags = await exiftool.read(image.file);
     const response = {
-      uri: image.uri,
+      index: image.index,
       info: {
         Lens: tags.Lens,
         FocusMode: tags.FocusMode,
