@@ -13,7 +13,7 @@ Backend for a web Application that processes and displays previews of RAW images
 
 ### Clone the repository
 
-1) git clone https://github.com/your-username/your-express-project.git
+1) git clone https://github.com/aks1817/FilterPixelAssignmentBackEnd.git
 2) cd your-express-project
 
 ### Install dependencies
